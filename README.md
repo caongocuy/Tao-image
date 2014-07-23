@@ -35,13 +35,13 @@ Enable vhost-net
 
  a. Tải và dùng trực tiếp image đã có sãn từ trên mạng
 
- - Tải image ubuntu 13.10 trên máy chủ cài OpenStack
+Tải image ubuntu 13.10 trên máy chủ cài OpenStack
  
     wget http://cloud-images.ubuntu.com/releases/13.10/release/ubuntu-13.10-server-cloudimg-amd64-disk1.img -P /var/kvm/images
 
     glance image-create --name="Ubuntu1310" --is-public=true --disk-format=qcow2 --container-format=bare < /var/kvm/images/ubuntu-13.10-server-cloudimg-amd64-disk1.img	
 
- - Tạo image bằng dòng lệnh
+ b. Tạo image bằng dòng lệnh
 Tạo file image của máy ảo theo định dạng qcow2 thong thu mục /var/kvm/images, sử dụng qemu
  
     qemu-img create -f qcow2 ubuntu1204.img 10G
@@ -64,7 +64,7 @@ Kiểm tra xem image tạo có thành công hay không (có thể vào dashboard
 
     glance image-list
 	
- - Tạo image bằng giao diện sử dụng virtual machine manager trên ubuntu12.04 desktop
+ c. Tạo image bằng giao diện sử dụng virtual machine manager trên ubuntu12.04 desktop
 
 Vào terminal gõ <i>virt-manager</i> 
 
