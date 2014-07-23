@@ -13,7 +13,7 @@
 
  a. Giao diện
  
- - Cài đặt Ubuntu desktop 12.04
+Cài đặt Ubuntu desktop 12.04
  
  b. Chuẩn bị Hypervisor
  
