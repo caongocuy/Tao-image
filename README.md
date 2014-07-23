@@ -17,7 +17,7 @@
  
  b. Chuẩn bị Hypervisor
  
- - Trên Ubuntu12.04 desktop cài đặt Qemu-kvm
+Trên Ubuntu12.04 desktop cài đặt Qemu-kvm
 
     apt-get install -y kvm qemu-kvm libvirt-bin virtinst bridge-utils
 
@@ -27,13 +27,13 @@ Enable vhost-net
 	lsmod | grep vhost
 	echo vhost_net >> /etc/modules
  
- - Cài đặt Virt-Manager
+Cài đặt Virt-Manager
  
     apt-get install virt-manager hal -y
  
 ## 3. Thực hiện
 
- a. Tải và dùng trực tiếp image đã có sãn từ trên mạng
+ a. Tải và dùng trực tiếp image đã có sẵn từ trên mạng
 
 Tải image ubuntu 13.10 trên máy chủ cài OpenStack
  
