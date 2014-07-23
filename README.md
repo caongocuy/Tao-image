@@ -18,8 +18,18 @@
  b. Chuẩn bị Hypervisor
  
  - Trên Ubuntu12.04 desktop cài đặt Qemu-kvm
+
+    apt-get install -y kvm qemu-kvm libvirt-bin virtinst bridge-utils
+
+Enable vhost-net
+
+	modprobe vhost_net
+	lsmod | grep vhost
+	echo vhost_net >> /etc/modules
  
  - Cài đặt Virt-Manager
+ 
+    apt-get install virt-manager hal -y
  
 ## 3. Thực hiện
 
