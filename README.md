@@ -125,7 +125,7 @@ Vào Virtual Manager và bắt đầu cài đặt
 - Click 'Next' The Operating System will install. This process may take awhile depending on resources you gave initially. Be patient.
 - Once completed you should be prompted to changed the Administrator password. Do so now.
 - The install should be completed and log you in! Congrats.
-###### cài đặt date time
+###### cài đặt date & time
 
 - From the 'Initial Configuration Tasks' screen
 - Click 'Set time zone'
