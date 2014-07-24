@@ -106,68 +106,68 @@ Tạo image win2k8r2 bằng lệnh
 
 Vào Virtual Manager và bắt đầu cài đặt 
 
-1.	Click Install
-2.	chọn your Operating System type
-3.	Accept License Terms
-4.	chọn Custom Installation
-5.	Click 'Load Driver'
-6.	Click Browse
-7.	click 'Virtio Drivers' thấy 2 cdroms attached. install cdrom and the other the 'Virtio Drivers'
-8.	chọn 'Virtio Drivers' => STORAGE => SERVER2008R2 => AMD64
-9.	Click OK
-10.	The 'Red Hat VirtIO SCSI controller' driver should be highlighted. If not then you have done something wrong.
-11.	Click Next Driver should load without error and take you back to the screen to select the hard drive to install the Operating System on
-12.	Click 'Drive options'
-13.	Click 'New' Ensure the entire drive space is being used - in our case the entire 10G
-14.	Click 'Apply'
-15.	Click 'OK'
-16. Brow lại và cài đặt thêm NETWORK driver
-16.	Click 'Next' The Operating System will install. This process may take awhile depending on resources you gave initially. Be patient.
-17.	Once completed you should be prompted to changed the Administrator password. Do so now.
-18.	The install should be completed and log you in! Congrats.
+- Click Install
+- chọn your Operating System type
+- Accept License Terms
+- chọn Custom Installation
+- Click 'Load Driver'
+- Click Browse
+- click 'Virtio Drivers' thấy 2 cdroms attached. install cdrom and the other the 'Virtio Drivers'
+- chọn 'Virtio Drivers' => STORAGE => SERVER2008R2 => AMD64
+- Click OK
+- The 'Red Hat VirtIO SCSI controller' driver should be highlighted. If not then you have done something wrong.
+- Click Next Driver should load without error and take you back to the screen to select the hard drive to install the Operating System on
+- Click 'Drive options'
+- Click 'New' Ensure the entire drive space is being used - in our case the entire 10G
+- Click 'Apply'
+- Click 'OK'
+- Brow lại và cài đặt thêm NETWORK driver
+- Click 'Next' The Operating System will install. This process may take awhile depending on resources you gave initially. Be patient.
+- Once completed you should be prompted to changed the Administrator password. Do so now.
+- The install should be completed and log you in! Congrats.
 ###### cài đặt date time
 
-1.	From the 'Initial Configuration Tasks' screen
-2.	Click 'Set time zone'
-3.	From the 'Date and Time' window Click 'Change time zone...'
-4.	From the 'Time zone:' drop-down select your time zone.
-5.	Click 'OK'
-6.	Click 'OK'
+- From the 'Initial Configuration Tasks' screen
+- Click 'Set time zone'
+- From the 'Date and Time' window Click 'Change time zone...'
+- From the 'Time zone:' drop-down select your time zone.
+- Click 'OK'
+- Click 'OK'
 ###### bật remote desktop
 
-1.	From the 'Initial Configuration Tasks' screen
-2.	Scroll down to '3. Customize This Server'
-3.	Click 'Enable Remote Desktop'
-4.	At the 'System Properties' window the 'Remote' tab under 'Remote Desktop' select your preferred level For my purposes I selected the middle option - the 'less secure' option
-5.	Click 'OK'
+- From the 'Initial Configuration Tasks' screen
+- Scroll down to '3. Customize This Server'
+- Click 'Enable Remote Desktop'
+- At the 'System Properties' window the 'Remote' tab under 'Remote Desktop' select your preferred level For my purposes I selected the middle option - the 'less secure' option
+- Click 'OK'
 ###### cấu hình firewall
 
-1.	From the 'Initial Configuration Tasks' screen
-2.	Scroll down to '3. Customize This Server'
-3.	Click 'Configure Windows Firewall'
-4.	At the 'Windows Firewall' click 'Turn Windows Firewall on or off'
-5.	At the 'Customize setting for each type of network'
-6.	Click 'Turn off Windows Firewall (not recommend)' for both Private and Public locations.
-7.	Click 'OK'
+- From the 'Initial Configuration Tasks' screen
+- Scroll down to '3. Customize This Server'
+- Click 'Configure Windows Firewall'
+- At the 'Windows Firewall' click 'Turn Windows Firewall on or off'
+- At the 'Customize setting for each type of network'
+- Click 'Turn off Windows Firewall (not recommend)' for both Private and Public locations.
+- Click 'OK'
 
 ###### add thêm drivers
-The 'Sever Manager' Console should be showing up after you closed out the 'Initial Configuration Task' Window. You should now take the time to install the VirtIO Balloon Driver.
-1.	Expand 'Diagnoistics' from the left hand window pane
-2.	Select 'Device Manager'
-3.	From the top menu click 'Action'
-4.	Select 'Add Legacy Hardware'
-5.	At the 'Add Hardware' window click 'Next'
-6.	Click 'Install the hardware that I manually select from a list (Advanced)'
-7.	Click 'Next'
-8.	Leave 'Show All Devices' select - Click 'Next'
-9.	Click 'Have Disk...'
-10.	Click 'Browse'
-11.	From the VirtIO CD - Locate Balloon => Server2008R2 => AMD64
-12.	Click 'Open'
-13.	Click 'OK'
-14.	'VirtIO Balloon Drive' should be highlighted - Click 'Next'
-15.	Click 'Next'
-16.	When prompted - select 'Install this driver software anyway'
-17.	Click 'Finished'
+- The 'Sever Manager' Console should be showing up after you closed out the 'Initial Configuration Task' Window. You should now take the time to install the VirtIO Balloon Driver.
+- Expand 'Diagnoistics' from the left hand window pane
+- Select 'Device Manager'
+- From the top menu click 'Action'
+- Select 'Add Legacy Hardware'
+- At the 'Add Hardware' window click 'Next'
+- Click 'Install the hardware that I manually select from a list (Advanced)'
+- Click 'Next'
+- Leave 'Show All Devices' select - Click 'Next'
+- Click 'Have Disk...'
+- Click 'Browse'
+- From the VirtIO CD - Locate Balloon => Server2008R2 => AMD64
+- Click 'Open'
+- Click 'OK'
+- 'VirtIO Balloon Drive' should be highlighted - Click 'Next'
+- Click 'Next'
+- When prompted - select 'Install this driver software anyway'
+- Click 'Finished'
 	
 	 
