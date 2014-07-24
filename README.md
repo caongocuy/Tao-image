@@ -125,6 +125,7 @@ Vào Virtual Manager và bắt đầu cài đặt
 - Click 'Next' The Operating System will install. This process may take awhile depending on resources you gave initially. Be patient.
 - Once completed you should be prompted to changed the Administrator password. Do so now.
 - The install should be completed and log you in! Congrats.
+
 ###### Cài đặt date & time
 
 - From the 'Initial Configuration Tasks' screen
@@ -133,6 +134,7 @@ Vào Virtual Manager và bắt đầu cài đặt
 - From the 'Time zone:' drop-down select your time zone.
 - Click 'OK'
 - Click 'OK'
+
 ###### Bật remote desktop
 
 - From the 'Initial Configuration Tasks' screen
@@ -140,6 +142,7 @@ Vào Virtual Manager và bắt đầu cài đặt
 - Click 'Enable Remote Desktop'
 - At the 'System Properties' window the 'Remote' tab under 'Remote Desktop' select your preferred level For my purposes I selected the middle option - the 'less secure' option
 - Click 'OK'
+
 ###### Cấu hình firewall
 
 - From the 'Initial Configuration Tasks' screen
@@ -151,6 +154,7 @@ Vào Virtual Manager và bắt đầu cài đặt
 - Click 'OK'
 
 ###### Add thêm drivers
+
 - The 'Sever Manager' Console should be showing up after you closed out the 'Initial Configuration Task' Window. You should now take the time to install the VirtIO Balloon Driver.
 - Expand 'Diagnoistics' from the left hand window pane
 - Select 'Device Manager'
