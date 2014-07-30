@@ -75,11 +75,19 @@ Bắt đầu tạo máy ảo
 ![img](http://i.imgur.com/yv4RDIK.png "img")
 Điền tên của máy ảo và chọn install bằng file iso
  
-![img](http://i.imgur.com/yv4RDIK.png "img") 
+![img](http://i.imgur.com/qk4mvO4.png "img") 
  
+![img](http://i.imgur.com/hlq385X.png "img") 
  
- 
- 
+![img](http://i.imgur.com/CW7g1n6.png "img")
+  
+![img](http://i.imgur.com/n0e9gV6.png "img")
+
+![img](http://i.imgur.com/3qxyRiz.png "img")
+
+![img](http://i.imgur.com/3qxyRiz.png "img")
+
+![img](http://i.imgur.com/6hiIbKx.png "img")
  
 Nén file .img và định dạng qcow2 cho image
 
