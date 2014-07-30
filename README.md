@@ -89,7 +89,7 @@ Nén file .img và định dạng qcow2 cho image
 
     scp ubuntu1204.qcow2 root@192.168.1.145:/root
 
-Upload image lên image service (chạy lệnh này trên máy chủ OpenStack)
+Upload image (chạy lệnh này trên máy chủ OpenStack)
 
     glance image-create --name "ubuntu1204" --disk-format qcow2 --container-format bare --is-public True --progress < ubuntu1204.qcow2
 
