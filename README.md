@@ -70,13 +70,16 @@ Vào terminal gõ <i>virt-manager</i>  cửa sổ virt-manager hiện lên
 
 ![img](http://i.imgur.com/cgB2hcp.png "img")
 
-Bắt đầu tạo máy ảo  
+Các bước tạo máy ảo
+Điền tên của máy ảo và chọn install bằng file iso
 
 ![img](http://i.imgur.com/yv4RDIK.png "img")
-Điền tên của máy ảo và chọn install bằng file iso
- 
+
+Chọn đường dẫn đến file iso và chọn loại + version cho OS
+
 ![img](http://i.imgur.com/qk4mvO4.png "img") 
  
+Chọn Ram và CPUs cho máy ảo 
 ![img](http://i.imgur.com/hlq385X.png "img") 
  
 ![img](http://i.imgur.com/CW7g1n6.png "img")
@@ -85,14 +88,15 @@ Bắt đầu tạo máy ảo
 
 ![img](http://i.imgur.com/3qxyRiz.png "img")
 
+Bắt đầu cài đặt ubuntu12.04 cho máy ảo
 ![img](http://i.imgur.com/6hiIbKx.png "img")
- 
-![img](http://i.imgur.com/2lcxypN.png "img") 
- 
+  
 Nén file .img và định dạng qcow2 cho image
 
     qemu-img convert -c ubuntu1204.img -O qcow2 ubuntu1204.qcow2
 
+![img](http://i.imgur.com/2lcxypN.png "img") 
+	
 Đẩy image lên máy chủ OpenStack
 
     scp ubuntu1204.qcow2 root@192.168.1.145:/root
