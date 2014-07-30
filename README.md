@@ -66,12 +66,16 @@ Kiểm tra xem image tạo có thành công hay không (có thể vào dashboard
 	
 #### c. Tạo image bằng giao diện sử dụng virtual machine manager trên ubuntu12.04 desktop
 
-Vào terminal gõ <i>virt-manager</i> 
+Vào terminal gõ <i>virt-manager</i>  cửa sổ virt-manager hiện lên
+
+![img](http://i.imgur.com/cgB2hcp.png "img")
 
 Bắt đầu tạo máy ảo  
+
+![img](http://i.imgur.com/yv4RDIK.png "img")
+Điền tên của máy ảo và chọn install bằng file iso
  
- 
- 
+![img](http://i.imgur.com/yv4RDIK.png "img") 
  
  
  
