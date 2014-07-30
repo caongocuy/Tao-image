@@ -87,6 +87,8 @@ Bắt đầu tạo máy ảo
 
 ![img](http://i.imgur.com/6hiIbKx.png "img")
  
+![img](http://i.imgur.com/2lcxypN.png "img") 
+ 
 Nén file .img và định dạng qcow2 cho image
 
     qemu-img convert -c ubuntu1204.img -O qcow2 ubuntu1204.qcow2
