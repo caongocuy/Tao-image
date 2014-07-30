@@ -96,11 +96,11 @@ Upload image (chạy lệnh này trên máy chủ OpenStack)
 Kiểm tra image
 
 #### d. Tạo image Win2k8r2
-Tạo file image của máy ảo  theo định  dạng qcow2, trong thư mục /var/image/win2k8r2
+Tạo file image của máy ảo  theo định  dạng qcow2, trong thư mục <i>/var/image/win2k8r2</i>
 
     qemu-img create -f qcow2 /var/image/win2k8.img 10G
 
-Tải driver cho image win2k8r2 / lưu trong thu mục /var/lib/libvirt/images/
+Tải driver cho image win2k8r2 lưu trong thư mục <i>/var/lib/libvirt/images/</i>
 
     wget https://launchpad.net/kvm-guest-drivers-windows/20120712/20120712/+download/virtio-win-drivers-20120712-1.iso
 	
