@@ -42,7 +42,7 @@ Tải image ubuntu 13.10 trên máy chủ cài OpenStack
     glance image-create --name="Ubuntu1310" --is-public=true --disk-format=qcow2 --container-format=bare < /var/kvm/images/ubuntu-13.10-server-cloudimg-amd64-disk1.img	
 
 #### b. Tạo image bằng dòng lệnh
-Tạo file image của máy ảo theo định dạng qcow2 thong thu mục /var/kvm/images, sử dụng qemu
+Tạo file image của máy ảo theo định dạng qcow2 trong thu mục <i>/var/kvm/images</i>, sử dụng qemu
  
     qemu-img create -f qcow2 ubuntu1204.img 10G
 Tạo máy ảo từ file iso trên file image vừa tạo
