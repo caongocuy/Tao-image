@@ -191,6 +191,7 @@ Vào Virtual Manager và bắt đầu cài đặt
 - 'VirtIO Balloon Drive' should be highlighted - Click 'Next'
 - Click 'Next'
 - When prompted - select 'Install this driver software anyway'
-- Click 'Finished'....
+- Click 'Finished'
+eo hieu dc
 	
 	 
