@@ -39,10 +39,13 @@ Tải image ubuntu 13.10 trên máy chủ cài OpenStack
  
     wget http://cloud-images.ubuntu.com/releases/13.10/release/ubuntu-13.10-server-cloudimg-amd64-disk1.img -P /var/kvm/images
 
-    glance image-create --name="Ubuntu1310" --is-public=true --disk-format=qcow2 --container-format=bare < /var/kvm/images/ubuntu-13.10-server-cloudimg-amd64-disk1.img	
+```sh glance image-create --name="Ubuntu1310" --is-public=true --disk-format=qcow2 --container-format=bare < /var/kvm/images/ubuntu-13.10-server-cloudimg-amd64-disk1.img```
+
+Sau đó dùng lệnh `glance image-list` hoặc `glance index` để kiểm tra image vừa được upload lên OpenStack
 
 #### b. Tạo image bằng dòng lệnh
-Tạo file image của máy ảo theo định dạng qcow2 trong thu mục <i>/var/kvm/images</i>, sử dụng qemu
+- Đây là các thao tác tạo image bắt đầu từ việc cài đặt OS, trong hướng dẫn này sử dụng KVM cài đặt trên Ubuntu 12.04 Destop để thực hiện việc tạo ra các image
+- Tạo file image của máy ảo theo định dạng qcow2 trong thu mục <i>/var/kvm/images</i>, sử dụng qemu
  
     qemu-img create -f qcow2 ubuntu1204.img 10G
 Tạo máy ảo từ file iso trên file image vừa tạo
