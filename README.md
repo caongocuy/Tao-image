@@ -30,6 +30,27 @@ Enable vhost-net
 Cài đặt Virt-Manager
  
     apt-get install virt-manager hal -y
+
+ c. Điều chỉnh chế độ card bridge cho máy ảo ( bước này có thể làm hoặc không )
+
+ Đầu tiên, cài đặt các gói phần mềm cần thiết và tạo ra một linux bridge từ câu lệnh
+
+    apt-get install bridge-utils -y
+    brctl addbr br0
+	
+ Sau đó cấu hình trong file : /etc/network/interfaces như sau:
+ 
+    auto br0
+    iface br0 inet dhcp
+    bridge_ports eth0
+    bridge_stp off
+    bridge_fd 0
+    bridge_maxwait 0
+	
+ Khởi động lại dịch vụ mạng và kiểm tra lại IP
+ 
+    /etc/init.d/networking restart
+	ip a
  
 ## 3. Thực hiện
 
@@ -192,6 +213,6 @@ Vào Virtual Manager và bắt đầu cài đặt
 - Click 'Next'
 - When prompted - select 'Install this driver software anyway'
 - Click 'Finished'
-eo hieu dc
+
 	
 	 
