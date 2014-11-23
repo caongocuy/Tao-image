@@ -52,6 +52,7 @@ Cài đặt Virt-Manager
     /etc/init.d/networking restart
 	ip a
  
+Khi chọn loại card mạng cho VM chúng ta đã có thể chọn một trong hai chế độ là NAT hoặc Bridge (Đã có hình mô tả ở bên dưới)
 ## 3. Thực hiện
 
 #### a. Tải và dùng trực tiếp image đã có sẵn từ trên mạng
