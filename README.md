@@ -88,6 +88,11 @@ Upload image lên image service (chạy lệnh này trên máy chủ OpenStack)
 Kiểm tra xem image tạo có thành công hay không (có thể vào dashboard để kiểm tra)
 
     glance image-list
+    
+Xóa thông tin phần cứng:
+
+    cd /var/lib/libvirt/images/
+    sudo virt-sysprep -a centos6.5.qcow2
 	
 #### c. Tạo image bằng giao diện sử dụng virtual machine manager trên ubuntu12.04 desktop
 
@@ -131,6 +136,11 @@ Upload image (chạy lệnh này trên máy chủ OpenStack)
     glance image-create --name "ubuntu1204" --disk-format qcow2 --container-format bare --is-public True --progress < ubuntu1204.qcow2
 
 Kiểm tra image
+
+Xóa thông tin phần cứng:
+
+    cd /var/lib/libvirt/images/
+    sudo virt-sysprep -a centos6.5.qcow2
 
 #### d. Tạo image Win2k8r2
 Tạo file image của máy ảo  theo định  dạng qcow2, trong thư mục <i>/var/image/win2k8r2</i>
@@ -215,5 +225,5 @@ Vào Virtual Manager và bắt đầu cài đặt
 - When prompted - select 'Install this driver software anyway'
 - Click 'Finished'
 
-	
+
 	 
